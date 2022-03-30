@@ -21,7 +21,9 @@ export default class extends React.Component {
 
     if (this.state.isReady) {
       if (this.props.fullHeight) {
-        this.props.containerStyle.height = window.innerHeight;
+        try {
+          this.props.containerStyle.height = window.innerHeight;
+        } catch (error) {}
       }
       return (
         <div ref="container" style={this.props.containerStyle}>
