@@ -50,7 +50,6 @@
     "react-dom": ">=16.8.0"
   },
   "devDependencies": {
-    "@rolldown/binding-darwin-arm64": "^1.0.3",
     "@testing-library/react": "^16.1.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
