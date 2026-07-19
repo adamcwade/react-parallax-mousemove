@@ -4,6 +4,12 @@ Mousemove parallax layers for React. Wrap your scene in a container, give each l
 
 Version 2 is a full modernization: function components and hooks, TypeScript with bundled type declarations, zero runtime dependencies (the react-motion dependency is gone, replaced by a small built-in spring), and a requestAnimationFrame loop that writes transforms straight to the DOM so mouse movement never triggers React re-renders.
 
+## Live demo
+
+**[react-parallax-mousemove.vercel.app](https://react-parallax-mousemove.vercel.app)** — every prop of the container and layers, live.
+
+[![react-parallax-mousemove live demo — a 3D stack of parallax layers shearing apart as the cursor moves](https://raw.githubusercontent.com/adamcwade/react-parallax-mousemove/master/hero.gif)](https://react-parallax-mousemove.vercel.app)
+
 ## Install
 
 ```
