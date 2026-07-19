@@ -1,6 +1,6 @@
 {
   "name": "react-parallax-mousemove",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Mousemove parallax layers for React with spring physics, zero dependencies, and TypeScript types",
   "type": "module",
   "main": "./dist/index.cjs",
